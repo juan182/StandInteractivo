@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public void sumPoint(int value)
     {
         point += value;
+        Debug.Log("Puntos actuales: " + point);
     }
 
     /// <summary>Resetea todos los recolectables.</summary>
