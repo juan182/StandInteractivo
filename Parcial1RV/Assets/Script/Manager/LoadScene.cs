@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class LoadScene : MonoBehaviour
 {
     public string Code ="";
     //Nota: modificar al adaptar la interfaz
-    public string TypedCode = "";
+    public TMP_InputField inputField;
 
     public GameObject panelNull;
     public GameObject panelError;
@@ -29,6 +31,8 @@ public class LoadScene : MonoBehaviour
     /// <param panelCorrect>Abre el panel que permite cambiar de escena</param>
     public void SceneControll()
     {
+        string TypedCode = inputField.text;
+
         if (TypedCode == null)
         {
             panelNull.SetActive(true);
