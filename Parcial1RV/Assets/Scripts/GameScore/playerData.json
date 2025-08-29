@@ -1,0 +1,18 @@
+{
+    "playerList": [
+        {
+            "name": "a",
+            "email": "a",
+            "age": 3,
+            "city": "a",
+            "score": 1
+        },
+        {
+            "name": "a",
+            "email": "a",
+            "age": 3,
+            "city": "a",
+            "score": 2
+        }
+    ]
+}
