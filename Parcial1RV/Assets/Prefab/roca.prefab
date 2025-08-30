@@ -198,5 +198,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab31c3140b622349a7703d45864ecd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  tiempoParaDestruir: 0.5
+  hitSound: {fileID: 8300000, guid: d9fdf85c4f2104c43bc706bc92fd756f, type: 3}
+  hitSoundVolume: 200
